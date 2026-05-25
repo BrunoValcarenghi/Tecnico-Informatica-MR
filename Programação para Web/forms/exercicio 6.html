@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="pt-br">
+	<head>
+		<title>Exercicio 6</title>
+		<meta charset="utf-8"/>
+	</head>
+	<body style = "font-family:verdana; padding-left:600px; padding-right:600px;">
+		
+<br><br>
+	
+	<fieldset style = "background:#e1ebed;">
+	<br><br><br>
+	<table  cellpadding = 5 align = center>
+	
+		<form method="post"  action="#" name="formulario">	
+		
+		<tr>
+			<td align = "right"><label for = "nome" > <b>Nome:</b></label></td>
+			<td><input type="text" size = 50px id="nome" name="nome" placeholder=" Digite seu nome " style = "border-radius: 4px;"></td>
+		</tr>
+		
+		<tr>
+			<td align = "right"><label for = "sobrenome" > <b>Sobrenome:</b></label></td>
+			<td><input type="text" size = 50px id="sobrenome" name="sobrenome" placeholder=" Digite seu sobrenome" style = "border-radius: 4px;"></td>
+		</tr>
+
+		<tr>
+			<td align = "right"><label for = "email" > <b>Email:</b></label></td>
+			<td><input type="email" size = 50px id="email" name="email" placeholder=" Digite seu email" style = "border-radius: 4px;"></td>
+		</tr>
+		
+		<tr>
+			<td align = "right"><label for = "email2" > <b>Confirme seu email:</b></label></td>
+			<td><input type="email" size = 50px id="email2" name="email2" placeholder=" Confrime seu email" style = "border-radius: 4px;"></td>
+		</tr>
+
+		<tr>
+			<td align = "right" valign = "top" ><label for = "senha" > <b>Senha:</b></label></td>
+			<td><input type="password" size = 50px id="senha" name="senha" placeholder=" Digite sua senha" style = "border-radius: 4px;" maxlength = "15" minlength="8"> <br> 
+			<p style = "font-size:11px;"> min 8 char, 1 numero, 1 letra, maisculo e minisculos</p> </td>
+		</tr>
+		
+		<tr>
+			<td align = "right"><label for = "senha2" > <b>Confirme sua senha:</b></label></td>
+			<td><input type="password" size = 50px id="senha2" name="senha2" placeholder=" Confirme sua senha" style = "border-radius: 4px;"></td>
+		</tr>
+		
+		<tr>
+			<td align = "right"><label for = "endereco" > <b>Endereço:</b></label></td>
+			<td><input type="text" size = 50px id="endereco" name="endereco" placeholder=" Digite seu endereco" style = "border-radius: 4px;"></td>
+		</tr>
+		
+		<tr>
+			<td align = "right"><label for = "cid" > <b>Cidade:</b></label></td>
+			<td><input type="text" size = 50px id="cid" name="cid" placeholder=" Digite sua cidade" style = "border-radius: 4px;"></td>
+		</tr>
+		
+		<tr>
+		<td align = "right"><label > <b>Estado:</b></label></td>
+		<td><select name="estado" style = "background-color:white; color:#878787;	">
+		
+				<option value="#" selected>Selecione seu Estado </option>
+				<option value="AC">Acre</option>
+				<option value="AL">Alagoas </option>				
+				<option value="AP">Amapá </option>
+				<option value="AM">Amazonas </option>
+				<option value="BA">Bahia </option>
+				
+				<option value="CE">Ceará</option>
+				<option value="ES">Espírito Santo </option>				
+				<option value="GO">Goiás </option>
+				<option value="MA">Maranhão </option>
+				<option value="MT">Mato Grosso </option>
+				
+				<option value="MS">Mato Grosso do Sul</option>
+				<option value="MG">Minas Gerais </option>				
+				<option value="PA">Pará </option>
+				<option value="PB">Paraíba </option>
+				<option value="PR">Paraná </option>
+				
+				<option value="PE">Pernambuco</option>
+				<option value="RJ">Rio de Janeiro </option>				
+				<option value="PN">Rio Grande do Norte </option>
+				<option value="RS">Rio Grande do Sul  </option>
+				<option value="RO">Rondônia </option>
+				
+				<option value="RR">Roraima</option>
+				<option value="SC">Santa Catarina  </option>				
+				<option value="SP">São Paulo</option>
+				<option value="SE">Sergipe  </option>
+				<option value="TO">Tocantins </option>
+				
+				<option value="DF">Distrito Federal  </option>
+				
+																	
+		</select>
+		</td>
+		</tr>
+		
+		<tr>
+			<td align = "right" valign = "top"><label for = "tel" > <b>Telefone:</b></label></td>
+			<td><input type="tel" size = 30px id="tel" name="tel" placeholder=" Digite seu telefone" style = "border-radius: 4px;" pattern="\([0-9]{3})\{9}(1)[0-9]{5}-[0-9]{4}"> 
+				<select name="cid" style = "background-color:white; color:#878787;	">
+		
+					<option value="#" selected> </option>
+					<option value="R">Residencial </option>
+					<option value="C">Celular </option>				
+
+
+			</select>
+			<br> <p style = "font-size:11px;"> (xx) xxxxx-xxxx</p> </td>
+			</td>
+		</tr>
+
+    <tr><td></td></tr>
+
+	<tr>
+		<td align = "right"><label > <b>Data de nascimento:</b></label></td>
+		<td><select name="dia" style = "background-color:white; color:#878787;	">
+		
+				<option value="#" selected>Dia </option>
+				<option value="1">1 </option>
+				<option value="2">2 </option>				
+				<option value="3">3 </option>
+				<option value="4">4 </option>
+				<option value="5">5 </option>
+				<option value="6">6 </option>
+				<option value="7">7 </option>				
+				<option value="8">8 </option>
+				<option value="9">9 </option>
+
+				<option value="10">10 </option>
+				<option value="11">11 </option>				
+				<option value="12">12 </option>
+				<option value="13">13 </option>
+				<option value="14">14 </option>
+				<option value="15">15 </option>
+				<option value="16">16 </option>				
+				<option value="17">17 </option>
+				<option value="18">18 </option>
+				<option value="19">19 </option>
+
+				<option value="20">20 </option>
+				<option value="21">21 </option>				
+				<option value="22">22 </option>
+				<option value="23">23 </option>
+				<option value="24">24 </option>
+				<option value="25">25 </option>
+				<option value="26">26 </option>				
+				<option value="27">27 </option>
+				<option value="28">28 </option>
+				<option value="29">29 </option>
+
+				<option value="30">30 </option>
+				<option value="31">31 </option>		
+															
+		</select>
+
+		<select name="mes" style = "background-color:white; color:#878787;	">
+		
+			<option value="#" selected>Mês </option>
+			<option value="1">1 </option>
+			<option value="2">2 </option>				
+			<option value="3">3 </option>
+			<option value="4">4 </option>
+			<option value="5">5 </option>
+			<option value="6">6 </option>
+			<option value="7">7 </option>				
+			<option value="8">8 </option>
+			<option value="9">9 </option>
+
+			<option value="10">10 </option>
+			<option value="11">11 </option>				
+			<option value="12">12 </option>
+														
+	</select>
+
+	<select name="mes" style = "background-color:white; color:#878787;	">
+		
+		<option value="#" selected>Ano </option>
+		<option value="1"> fds o ano</option>
+													
+</select>
+
+
+		</td>
+		</tr>
+
+		<tr>
+			<td align = "right"><label > <b>Genêro:</b></label></td>
+			<td><select name="dia" style = "background-color:white; color:#878787;	">
+			
+					<option value="#" selected> </option>
+					<option value="m"> Masculino </option>
+					<option value="f"> Feminino </option>				
+		
+			</select>
+	
+			</td>
+			</tr>
+
+			<tr>
+				<td align = "right" valign = "top"><label for = "frase" > <b>Frase de segurança:</b></label></td>
+				<td><input type="text" size = 50px id="frase" name="frase" placeholder=" Coloque uma frase de segurança " style = "border-radius: 4px;">
+				<br><p style = "font-size:11px;"> caso esqueça sua senha</p></td>
+			</tr>
+
+    <tr>
+
+    <td></td>
+    <td><input type="submit" name="save" value="Enviar"/></td>
+
+	</tr>
+		</form>
+
+	</table>
+	<br><br>
+	</fieldset>
+		
+	</body>
+</html>

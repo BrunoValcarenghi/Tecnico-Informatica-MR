@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="pt-br">
+	<head>
+		<title>Exercicio 1</title>
+		<meta charset="utf-8"/>
+	</head>
+	<body style = "font-family:verdana; padding-left:100px; padding-right:100px; background-color:#f2f0df">
+		
+		<br>
+		<h2 align = center> INSCRIÇÕES PARA OS CURSOS </H2>
+	<br>
+		
+		<fieldset style = "padding-left:30px;padding-right:30px;  border:2px solid;
+  border-radius: 10px;">
+		<legend style = "padding-left:40px;padding-right:40px;"> <b>Formularios</b> </legend>
+		
+		<br>
+	<table  cellpadding = 5>
+
+		<form method="post"  action="#" name="formulario">	
+
+		<tr>
+			<td align = "right"><label for = "email"><b>Endereço de E-Mail : </b></label></td>
+			<td><input type="email" size = 50px id="email" name="email" placeholder="Digite seu endereço de E-Mail" style = "border-radius: 4px;"  > </td>
+		</tr>
+		
+		<tr>
+			<td align = "right"><label for = "nome" > <b>Nome completo :</b></label></td>
+			<td><input type="text" size = 50px id="nome" name="nome" placeholder="Digite seu nome completo" style = "border-radius: 4px;"></td>
+		</tr>
+
+		<tr>
+
+			<td align = "right"> <label for = "gen"> <b> Genêro</b></label></td>
+			<td>
+
+				<select name="gen" style = "border-radius: 4px;width:180px" >
+					<option value="#" selected>Selecione seu genêro </option>
+					<option value="m">Masculino </option>
+					<option value="f">Feminino </option>	
+					<option value="n">Outro </option>	
+
+			</td>
+		</tr>
+
+		<tr>
+
+			<td align = "right"> <label for = "curso"> <b> Curso</b></label></td>
+			<td>
+
+				<select name="curso" style = "border-radius: 4px;width:220px ;" >
+					<option value="#" selected>Selecione o curso desejado </option>
+					<option value="info">Curso técnico em informática </option>
+					<option value="alim">Curso técnico em alimentos </option>	
+					<option value="agro">Curso técnico em agropecuária </option>	
+
+			</td>
+		</tr>
+		
+		<tr>
+			<td align = "right"><label for = "endereço" > <b>Endereço :</b></label></td>
+			<td><input type="text" size = 50 id="endereço" name="endereço" placeholder="Digite seu endereço" style = "border-radius: 4px;"></td>
+		</tr>
+
+		<tr>
+			<td align = "right"><label for = "comp" > <b>Complemento :</b></label></td>
+			<td><input type="text" size = 50 id="comp" name="endereço" placeholder="Digite o complemento" style = "border-radius: 4px;"></td>
+		</tr>
+
+		<tr>
+			<td align = "right"><label for = "cep" > <b>CEP :</b></label></td>
+			<td><input type="text" size = 30 id="cep" name="cep" placeholder="Digite o seu CEP" style = "border-radius: 4px;"></td>
+		</tr>
+
+		<tr>
+			<td align = "right"><label for = "cid" > <b>Cidade:</b></label></td>
+			<td><input type="text" size = 50 id="cid" name="cid" placeholder="escreva o nome da sua cidade" style = "border-radius: 4px;"></td>
+
+			<td>
+
+				<select name="curso" style = "border-radius: 4px;width:60px ;" >
+					<option value="#" selected> &nbsp; </option>
+					<option value="info">RS </option>
+					<option value="alim">SC </option>	
+					<option value="agro">PR </option>	
+
+			</td>
+			
+		</tr>
+
+		<tr><td></td></tr>
+
+		<tr>
+
+		<td></td>
+		<td><input type="submit" name="save" value="Salvar"/></td>
+
+		</tr>
+
+		</form>
+
+	</table>
+
+<br>
+		</fieldset>	
+		
+	</body>
+</html>
